@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive JavaScript Playground</h1>
+        <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Welcome to JavaScript Interactivity!</h2>
+            <p>This page demonstrates various JavaScript features including event handling, interactive elements, and form validation.</p>
+        </section>
+
+        <!-- Part 1: Event Handling Examples -->
+        <section class="event-section">
+            <h2>Event Handling Examples</h2>
+            
+            <div class="event-examples">
+                <div class="event-card">
+                    <h3>Click Event</h3>
+                    <button id="click-btn" class="event-btn">Click Me!</button>
+                    <p id="click-output" class="output">Waiting for click...</p>
+                </div>
+                
+                <div class="event-card">
+                    <h3>Mouse Events</h3>
+                    <div id="mouse-box" class="mouse-box">Hover Over Me!</div>
+                    <p id="mouse-output" class="output">Mouse events will appear here</p>
+                </div>
+                
+                <div class="event-card">
+                    <h3>Keyboard Event</h3>
+                    <input type="text" id="keyboard-input" placeholder="Type here...">
+                    <p id="keyboard-output" class="output">Type something to see events</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 2: Interactive Elements -->
+        <section class="interactive-section">
+            <h2>Interactive Elements</h2>
+            
+            <div class="interactive-examples">
+                <!-- Counter Game -->
+                <div class="interactive-card">
+                    <h3>Counter Game</h3>
+                    <div class="counter-container">
+                        <span id="counter-value">0</span>
+                        <div class="counter-buttons">
+                            <button id="decrement-btn">-</button>
+                            <button id="increment-btn">+</button>
+                            <button id="reset-counter">Reset</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Section -->
+                <div class="interactive-card">
+                    <h3>FAQ Section</h3>
+                    <div class="faq-container">
+                        <div class="faq-item">
+                            <button class="faq-question">What is JavaScript? <span class="faq-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>JavaScript is a programming language that enables interactive web pages. It is an essential part of web applications.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">What are event listeners? <span class="faq-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>Event listeners are functions that wait for a specific event to occur on a particular element, like a click or keypress.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question">What is DOM manipulation? <span class="faq-icon">+</span></button>
+                            <div class="faq-answer">
+                                <p>DOM manipulation is the process of dynamically modifying the content, structure, or style of a web page using JavaScript.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 3: Form Validation -->
+        <section class="form-section">
+            <h2>Form Validation</h2>
+            <p>Please fill out this form with your information.</p>
+            
+            <form id="validation-form" class="validation-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name">
+                    <span id="name-error" class="error-message"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <span id="email-error" class="error-message"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Create a password">
+                    <span id="password-error" class="error-message"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password">
+                    <span id="confirm-password-error" class="error-message"></span>
+                </div>
+                
+                <button type="submit" id="submit-btn">Submit Form</button>
+            </form>
+            
+            <div id="form-success" class="success-message hidden">
+                <h3>✅ Form Submitted Successfully!</h3>
+                <p>Thank you for completing the form. Your information has been validated.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Interactive website development &copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

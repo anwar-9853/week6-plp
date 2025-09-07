@@ -1,0 +1,70 @@
+# 🌟 Interactive Web Pages with JavaScript
+
+This project is built as part of the **"Interactive Web Pages with JavaScript" assignment**.  
+It demonstrates **event handling, DOM manipulation, and form validation** to create a dynamic and engaging web experience. 🚀
+
+---
+
+## 📂 Project Structure
+├── index.html # Main HTML structure
+├── style.css # Styling for layout, dark/light mode, FAQ, form
+└── script.js # JavaScript for interactivity and form validation
+
+---
+
+## 🎮 Features
+
+### ✅ Part 1: Event Handling
+- **Counter Button**: Click to increment a counter live on the page.
+- **Dark/Light Mode Toggle**: Switch between light and dark themes dynamically.
+
+### ✅ Part 2: Interactive Elements
+- **Collapsible FAQ Section**: Click questions to reveal/hide answers.
+- **Dynamic DOM Manipulation**: JavaScript updates styles and content without reloading the page.
+
+### ✅ Part 3: Form Validation
+- A signup form with fields:
+  - Full Name  
+  - Email  
+  - Password  
+  - Confirm Password  
+- **Custom Validation Rules**:
+  - Name must be at least 3 characters.  
+  - Email must match a valid format (regex).  
+  - Password must be at least 6 characters.  
+  - Confirm Password must match Password.  
+- Displays clear error messages and a success message on valid submission.
+
+---
+
+## 🚀 How to Run
+1. Clone or download this repository.
+2. Open `index.html` in your browser.
+3. Interact with the features:
+   - Try the counter button.
+   - Toggle between dark and light mode.
+   - Expand FAQ questions.
+   - Fill out and test the form validation.
+
+---
+
+## 💡 Learning Outcomes
+- Using **event listeners** for clicks and form submissions.  
+- Building **interactive elements** with DOM manipulation.  
+- Implementing **custom JavaScript form validation** with regex.  
+- Writing clean, modular, and well-commented code.  
+
+---
+
+## 📸 Preview
+- Counter example  
+- Dark/Light mode toggle  
+- FAQ collapse/expand  
+- Form validation  
+
+---
+
+## ✨ Author
+Developed with ❤️ by **Anwar Mohammed**  
+ Software development Student @ PLP
+
